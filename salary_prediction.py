@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # importing the dataset
-df = pd.read_csv("Regression/Salary_Data.csv")
+df = pd.read_csv("Data.csv")
 x = df.iloc[:, :-1].values
 y = df.iloc[:, -1].values
 
